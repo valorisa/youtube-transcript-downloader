@@ -1,0 +1,24 @@
+# Ignorer le dossier des transcriptions générées
+transcriptions/
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers de log
+*.log
+
+# Environnements virtuels
+venv/
+.env/
+.venv/
+
+# Fichiers temporaires d’éditeurs
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Fichiers de configuration personnels
+*.local
