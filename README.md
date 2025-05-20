@@ -20,7 +20,7 @@ Un outil simple en Python pour extraire, afficher et sauvegarder les sous-titres
 
 1. Clonez ce dépôt :
    ```
-   git clone https://github.com/votre-utilisateur/youtube-transcript-downloader.git
+   git clone https://github.com/valorisa/youtube-transcript-downloader.git
    cd youtube-transcript-downloader
    ```
 
