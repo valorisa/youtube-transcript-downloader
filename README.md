@@ -19,13 +19,15 @@ Un outil simple en Python pour extraire, afficher et sauvegarder les sous-titres
 ## Installation
 
 1. Clonez ce dépôt :
-   ```
+
+   ```shell
    git clone https://github.com/valorisa/youtube-transcript-downloader.git
    cd youtube-transcript-downloader
    ```
 
 2. Installez la dépendance principale :
-   ```
+
+   ```shell
    pip install youtube-transcript-api
    ```
 
@@ -33,7 +35,7 @@ Un outil simple en Python pour extraire, afficher et sauvegarder les sous-titres
 
 Lancez le script principal :
 
-```
+```shell
 python transcription_youtube.py
 ```
 
@@ -42,13 +44,14 @@ python transcription_youtube.py
 1. **Saisissez l’URL de la vidéo YouTube** lorsque le script le demande.
 2. **Choisissez la langue** parmi celles proposées (ex : `fr`, `en`, `es`).
 3. **La transcription** s’affiche à l’écran et est enregistrée dans le dossier `transcriptions/` sous la forme :
-   ```
+
+   ```text
    transcription_<ID_VIDEO>_<lang>.txt
    ```
 
 ### Exemple
 
-```
+```text
 Veuillez entrer l'URL de la vidéo YouTube : https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 Langues de sous-titres disponibles :
@@ -67,7 +70,7 @@ Transcription :
 
 ## Structure du projet
 
-```
+```console
 youtube-transcript-downloader/
 ├── transcription_youtube.py
 ├── transcriptions/
